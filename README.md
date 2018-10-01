@@ -8,7 +8,7 @@
 
 ## how to use
 
-```
+``` zsh
 yarn
 yarn run build
 search-reference.js --help
