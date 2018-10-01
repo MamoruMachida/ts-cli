@@ -1,0 +1,12 @@
+{
+  "name": "ts-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx typescript-to-cli search-reference.ts"
+  },
+  "dependencies": {
+    "opn": "^5.4.0"
+  }
+}
