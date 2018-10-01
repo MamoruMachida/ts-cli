@@ -12,4 +12,7 @@
 yarn
 yarn run build
 search-reference.js --help
+
+# if use global, create symbolic link
+ln -sf /path/to/ts-cli/search-reference.js /usr/local/bin/search-reference
 ```
