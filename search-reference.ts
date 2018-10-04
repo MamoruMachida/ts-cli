@@ -16,5 +16,6 @@ const supported = {
   default: {url: 'https://www.google.com/search?q='},
   phalcon: {url: 'https://docs.phalconphp.com/search?q='},
   fontawesome: {url: 'https://fontawesome.com/icons?d=gallery&q='},
-  web: {url: 'https://developer.mozilla.org/ja/search?q='}
+  web: {url: 'https://developer.mozilla.org/ja/search?q='},
+  php: {url: 'http://php.net/manual-lookup.php?pattern='}
 }
