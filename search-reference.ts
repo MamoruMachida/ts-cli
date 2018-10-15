@@ -6,8 +6,11 @@ import * as opn from 'opn';
  * @param k 検索したい語句
  * @param t 検索するライブラリ support→phalcon
  */
-export default function searchReference(k: string, t: string = 'default') {
+export default function searchReference(k: string = '', t: string = 'default') {
     const tl = t.toLowerCase();
+    if (alias.has(tl)) {
+      tl = alias.get(tl)
+    }
     const url = supported[tl].url;
     opn(`${url}${k}`);
 }
@@ -20,3 +23,9 @@ const supported = {
   php: {url: 'http://php.net/manual-lookup.php?pattern='},
   android: {url: 'https://developer.android.com/s/results/?q='}
 }
+
+const alias = new Map([
+  ['pha', 'phalcon'],
+  ['fa', 'fontawesome'],
+  ['droid', 'android']
+]);
