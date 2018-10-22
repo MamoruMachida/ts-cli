@@ -21,7 +21,8 @@ const supported = {
   fontawesome: {url: 'https://fontawesome.com/icons?d=gallery&q='},
   web: {url: 'https://developer.mozilla.org/ja/search?q='},
   php: {url: 'http://php.net/manual-lookup.php?pattern='},
-  android: {url: 'https://developer.android.com/s/results/?q='}
+  android: {url: 'https://developer.android.com/s/results/?q='},
+  kotlin: {url: 'https://kotlinlang.org/docs/reference/coding-conventions.html?q='}
 }
 
 const alias = new Map([
