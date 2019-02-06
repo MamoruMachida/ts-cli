@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/node@10.9.4":
+  version "10.9.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.9.4.tgz#0f4cb2dc7c1de6096055357f70179043c33e9897"
+  integrity sha512-fCHV45gS+m3hH17zgkgADUSi2RR1Vht6wOZ0jyHP8rjiQra9f+mIcgwPQHllmDocYOstIEbKlxbFDYlgrTPYqw==
+
 is-wsl@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/is-wsl/-/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
@@ -13,3 +18,16 @@ opn@^5.4.0:
   integrity sha512-YF9MNdVy/0qvJvDtunAOzFw9iasOQHpVthTCvGzxt61Il64AYSGdK+rYwld7NAfk9qJ7dt+hymBNSc9LNYS+Sw==
   dependencies:
     is-wsl "^1.1.0"
+
+typescript-to-cli@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/typescript-to-cli/-/typescript-to-cli-0.5.1.tgz#062d943aa084bf5364ac12f6db4dbc0ac4bcfc80"
+  integrity sha512-w/7XlnC2KbCoc+ugQ2G1sOfzPoaQqi8x11i9/Hns4g2bwWdcwsBOHsmnZPILm/bWnfdX6VWhfm0F+CKu9RTV4Q==
+  dependencies:
+    "@types/node" "10.9.4"
+    typescript "3.0.3"
+
+typescript@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.0.3.tgz#4853b3e275ecdaa27f78fda46dc273a7eb7fc1c8"
+  integrity sha512-kk80vLW9iGtjMnIv11qyxLqZm20UklzuR2tL0QAnDIygIUIemcZMxlMWudl9OOt76H3ntVzcTiddQ1/pAAJMYg==

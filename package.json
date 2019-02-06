@@ -4,9 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "npx typescript-to-cli search-reference.ts"
+    "build": "typescript-to-cli search-reference.ts"
   },
   "dependencies": {
     "opn": "^5.4.0"
+  },
+  "devDependencies": {
+    "typescript-to-cli": "^0.5.1"
   }
 }
